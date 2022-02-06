@@ -174,6 +174,8 @@ public abstract class GuiStructure extends GuiBase {
                     .setStructureConfiguration(this.configuration)
                     .setBlocks(this.selectedStructure.getBlocks())
                     .setupBlocks();
+
+            this.scheduleRebuild();
         }
     }
 
